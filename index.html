@@ -15,7 +15,7 @@
     "background-color:black;
     width:800px;">
       <!-- Begin UMass Amherst top banner --> 
-      <div id="topbanner"> 
+      <div id="topbanner">
         <a  href="http://umass.edu">
           <img id="banner_wordmark" src="images/informal_fff_on_000.gif" alt="UMass Amherst">
         </a>
@@ -36,6 +36,40 @@
       <div id="banner">
         <!--Banner image rendered through css-->
         <a id="banner_link" href="index.html"></a>
+      </div>
+      
+      <div align="center">
+        <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+        <script>
+        new TWTR.Widget({
+          version: 2,
+          type: 'profile',
+          rpp: 1,
+          interval: 6000,
+          width: 600,
+          height: 50,
+          theme: {
+            shell: {
+              background: '#333333',
+              color: '#ffffff'
+            },
+            tweets: {
+              background: '#000000',
+              color: '#ffffff',
+              links: '#4aed05'
+            }
+          },
+          features: {
+            scrollbar: false,
+            loop: false,
+            live: false,
+            hashtags: true,
+            timestamp: true,
+            avatars: false,
+            behavior: 'all'
+          }
+        }).render().setUser('umasstransit').start();
+        </script>
       </div>
       
       <div align="center" style=
