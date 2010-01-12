@@ -12,13 +12,13 @@
 	border-bottom: solid #FFFFFF 1px;
 }
 #banner {
-	background-color: #FFFFFF;
-	background-image: url(images/top_banner.jpg);
+	background-color: #000000;
+	background-image: url(images/umts_logo.gif);
 	background-repeat: no-repeat;
 	width: 800px;
 	height: 75px;
 	border-bottom: 1px;
-	border-bottom-color: #FFFFFF;
+	border-bottom-color: #000000;
 }
 #container {
 	background-color: #FFFFFF;
